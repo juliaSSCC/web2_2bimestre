@@ -14,9 +14,6 @@
     .alinhamento{
       text-align: center;
     }
-    .corCodigo{
-      text-align: left;
-    }
     </style>
     <title>Login</title>
     <meta charset="utf-8">
