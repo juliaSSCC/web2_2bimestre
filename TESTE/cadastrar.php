@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-  <?php 
+  <?php
     echo
     "<script language='javascript' type='text/javascript' src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>";
     echo
@@ -24,7 +24,7 @@
   <body>
   <div class="container alinhamento"> <br><br>
     <h1>Cadastrar</h1> <br>
-    <form method="POST" action="processa.php">
+    <form method="POST" action="cadastrar_usuario.php">
       <label for="usr">Nome Completo:</label><br>
       <input type="text" name="nome" placeholder=" Nome completo" maxlength="30" size="32"><br><br>
     <!-- type=tipo do input, name= nome no banco, placeholder=dentro da input, maxlength=tamanho maximo -->
