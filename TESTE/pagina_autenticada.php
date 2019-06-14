@@ -18,7 +18,10 @@
       text-align: center;
     }
     .corCodigo{
-      text-align: left;
+      font-size: 20px;
+      background-color: #A9E2F3;
+      border-radius: 25px;
+      border-color: #A9E2F3;
     }
     </style>
     <title>Main</title>
@@ -27,13 +30,15 @@
     <body>
       <br><br>
       <div class="container alinhamento">
-        <div class="alert alert-success">
-          <strong>Sucess!</strong> Você deveria <a href="#" class="alert-link">Você conseguiu!</a> <br>
-
+        <div class="alert alert-info">
+          <strong>Sucesso! Você conseguiu! </strong><br>
         </div>
-        <a class="btn btn-success" href="index.php" role="button">Sair</a>
+        <form method="GET">
+            <input type="submit" name="logout" value="Sair" class="corCodigo">
+        </form>
 
       </div>
+
 
     </body>
 </html>
