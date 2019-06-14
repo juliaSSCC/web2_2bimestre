@@ -13,12 +13,10 @@ $checar = mysqli_query($link, $query);
 if (mysqli_num_rows($checar) > 0){
   $_SESSION['email'] = $email;
   $_SESSION['senha'] = $senha;
-  header('location:home.php');
+  header('location:pagina_autenticada.php');
 }  else{
     unset ($_SESSION['email']);
     unset ($_SESSION['senha']);
-    echo"<script language='javascript' type='text/javascript'> alert('Login/Senha incorretos'); window.location.href='index.php'; </script>";
+    echo"<script language='javascript' type='text/javascript'> alert('Login ou senha incorreto'); window.location.href='index.php'; </script>";
   }
-
-
 ?>
