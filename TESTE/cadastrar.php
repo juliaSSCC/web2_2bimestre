@@ -16,9 +16,6 @@
     .alinhamento{
       text-align: center;
     }
-    .corCodigo{
-      text-align: left;
-    }
     </style>
   </head>
   <body>
